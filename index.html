@@ -34,6 +34,15 @@
     rel="stylesheet"
     href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"
   />
+
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"
+  />
+
+  <link rel="stylesheet" href="main.css" />
   <style>
     html,
     body {
@@ -53,13 +62,50 @@
     }
   </style>
 
+  <title>Схема скоростных поездов Москвы и МО | living.moscow</title>
+
+  <!-- META COMMON ___START___ -->
+  <meta charset="utf-8" />
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <meta
+    name="keywords"
+    content="Схема скоростных поездов Москвы и МО, Схема поездов Спутник Москвы, Moscow suburban fast trains"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="./img/msk_map_1.jpg" />
+  <meta
+    property="og:title"
+    content="Схема скоростных поездов Москвы и МО | living.moscow"
+  />
+  <meta
+    name="description"
+    content="Схема скоростных поездов Москвы и МО, Схема поездов Спутник  Москвы, Moscow suburban fast trains"
+  />
+  <meta
+    property="og:description"
+    content="Схема скоростных поездов Москвы и МО, Схема поездов Спутник  Москвы, Moscow suburban fast trains"
+  />
   <meta
     name="viewport"
     content="width=device-width,
-        initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+      initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
   />
+  <!-- META COMMON ___END___ -->
 
-  <title>Схема скоростных поездов Москвы и МО | living.moscow</title>
+  <!-- META FOR TWITTER ___START___ -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@SpaceRabbitMaco" />
+  <meta
+    name="twitter:title"
+    content="Схема скоростных поездов Москвы и МО | living.moscow"
+  />
+  <meta
+    name="twitter:description"
+    content="Схема скоростных поездов Москвы и МО, Moscow suburban fast trains"
+  />
+  <meta name="twitter:image" content="./img/msk_map_1.jpg" />
+  <meta name="twitter:image:alt" content="Fast trains" />
+  <!-- META FOR TWITTER ___END___ -->
   <style>
     #map_e4b992850b40479f98bf11a3a1a2f491 {
       position: relative;
@@ -76,7 +122,15 @@
   />
 </head>
 <body>
-  <div id="top-menu">menu</div>
+  <div id="top-menu">
+    <span class="menu-title"
+      >Скоростные поезда Москвы и МО — Спутник, Экспресс, Концепт</span
+    ><span class="menu-home"
+      ><a href="./index.html"
+        ><i class="fas fa-home"></i> living.moscow</a
+      ></span
+    >
+  </div>
   <div class="folium-map" id="map_e4b992850b40479f98bf11a3a1a2f491"></div>
 </body>
 <script>

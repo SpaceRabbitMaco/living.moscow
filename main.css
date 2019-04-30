@@ -1,0 +1,11 @@
+#top-menu {
+  text-align: center;
+  font-size: medium;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.3rem;
+}
+
+.menu-home {
+  margin-left: 2rem;
+  cursor: pointer;
+}
